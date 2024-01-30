@@ -106,39 +106,4 @@ const Home = () => {
 
 export default Home;
 
-// Add some basic styling
-<style jsx>{`
-  div {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  form {
-    margin-bottom: 20px;
-  }
-  input {
-    padding: 8px;
-    margin-right: 8px;
-  }
-  button {
-    margin-top: 8px;
-    padding: 8px 16px;
-    background-color: #0070f3;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-right: 8px;
-  }
-  p {
-    margin-top: 20px;
-    font-size: 16px;
-  }
-  p.loading {
-    color: #0070f3;
-  }
-`}</style>;
+
